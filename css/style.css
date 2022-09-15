@@ -1,0 +1,39 @@
+/* Sätt bakgrundsfärg och textfärg */
+body {
+    background-color: black;
+    color: white;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+    text-decoration: underline;
+}
+.thick-blue-border {
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.blue-text {
+    color: blue;
+}
+h1 {
+    font-family: Lobster, monospace;
+} 
+h2 {
+    font-family: Lobster, monospace;
+}
+.smaller-image {
+    width: 500px;
+}
