@@ -1,8 +1,15 @@
-/* Sätt bakgrundsfärg och textfärg */
-body {
-    background-color: black;
-    color: white;
+/* Sätt bakgrundsbild */
+html {
+    min-height: 100%;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+/* textfärg*/
+body {
+    color: white;
+}  
 a:link {
     color: white;
     text-decoration: none;
@@ -16,24 +23,57 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: blue;
+    color: black;
     text-decoration: underline;
 }
-.thick-blue-border {
-    border-color: blue;
+/* första rubrik*/
+h1 {
+    font-family: Lobster; 
+    font-size: 50px;
+    text-align: center;
+} 
+/* andra rubrik*/
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+}
+/* brödtext font, storlek, position*/
+p {
+    font-family: Monospace;
+    font-size: 20px;
+    text-align: center;
+}
+/* tredje rubrik*/
+h3 {
+    font-family: Lobster;
+    font-size: 30px; 
+    text-align: center;
+}
+/* vit ram runt bilder*/
+.thick-white-border {
+    border-color: white;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
 }
-.blue-text {
-    color: blue;
-}
-h1 {
-    font-family: Lobster, monospace;
-} 
-h2 {
-    font-family: Lobster, monospace;
-}
-.smaller-image {
+/* vit ram runt rubrik*/
+.thick-whitesmoke-border {
+    border-color: whitesmoke;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100px;
+    font-family: monospace;
+    font-size: 25px;
+    justify-content: center;
+    position: center;
+    padding: 5px 30px 5px 30px;
     width: 500px;
+    text-align: center;
+}
+/*centrerar texten med ramarna*/
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
